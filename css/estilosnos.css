@@ -204,3 +204,32 @@ a{
     }
     
 }
+
+@media screen and (max-width: 500px){
+
+    .aside{
+        flex-direction: column;
+    }
+  
+    .articulos{
+        flex-direction: column;
+       
+    }
+
+    .articulosn {
+        
+        flex-flow: column;
+   
+    }
+
+    .articulosp {
+        flex-flow: column;
+    }
+
+    .pie a{
+       flex-flow: row ;
+       font-size: 10px;
+       
+    }
+
+}
