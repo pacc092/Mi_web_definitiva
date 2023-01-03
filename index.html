@@ -38,8 +38,8 @@
                         <img src="./imagenes/1366_2000.jpeg" alt="Play Station 5">
                         <figcaption><h2>El futuro ha llegado con Play Station 5</h2></figcaption>
                     </figure>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
-                    <a id="ampliar" href="#" onclick="abrir();">Leer más</a>
+                    <p >La elegancia de la nueva consola de Sony por fin tiene sentido, con esta consola de nueva generación, cuyos gráficos están dispuestos a revolucionar el mundo de los videojuegos. <span id="adicional" class="oculto">Y creemos que con su llegada, marcará un antes y un después si nos referimos a la hora de vivir una experiencia </span></p>
+                    <a id="ampliar" href="#" onclick="mostrar('');">Leer más</a>
                 </article>
                 <article class="articulo1">
                     <figure>
@@ -47,7 +47,7 @@
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
-                    <a id="ampliar" href="#" onclick="abrir()";>Leer más</a>
+                    <a id="ampliar" href="#" onclick="mostrar()";>Leer más</a>
                 </article>
                 <article class="articulo1">
                     <figure>
@@ -65,6 +65,20 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
                     <a href="#">Leer más</a>
                 </article>
+                <style>
+                    .oculto{display: none}
+                    .normal{display: block}
+                </style>
+
+                <script>
+                    function mostrar() {
+                        let elemento = document.getElementById('adicional');
+                        if (element.className == 'oculto')
+                        elemento.className = 'normal'
+                        else elemento.className = 'oculto'
+                        
+                    }
+                </script>
                 <nav class="navegacion">
                     <a href="#"></a>
                     <a href="#"></a>
