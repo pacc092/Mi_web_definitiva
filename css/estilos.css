@@ -116,6 +116,13 @@ a{
     background: url(../imagenes/FONDO\ NOSOTROS2.jpg);
 }
 
+/*SLIDER*/
+.contenedor-slider{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+}
 /*NOTICIAS index2*/
 .section{
     background:#f7f7f7;
