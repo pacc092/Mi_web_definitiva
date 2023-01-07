@@ -36,7 +36,7 @@
                 <h1 class="cuestionario">CUESTIONARIO</h1>
             </div>
             <div>
-                <form action="" method="post" enctype="multipart/form-data" class="cuadros">
+                <form action="" name="miformulario" method="" enctype="multipart/form-data" class="cuadros">
                     <fieldset>
                         <legend>Datos Personales</legend>
                         <label for="nombre">Nombre*</label>
@@ -155,14 +155,15 @@
                       
                       <br>
                       <label for="sugerencias">Sugerencias</label><br>
-                      <textarea id="sugerencias" name="sugerencias" class="grande"  rows="5"></textarea>
+                      <textarea id="sugerencias" name="sugerencias" class="grande"  rows="10" cols="80"></textarea>
                     </fieldset>
                   
                    
                   <fieldset> 
-                      <input type="submit" value="Mandar datos"> 
+                      <input type="button" onclick="comprobar()" value="Mandar datos"> 
+                      <script src="../js/productos.js"></script>
                       <input type="reset" value="Borrar datos"><br>
-                      <input type="button" value="Yo no hago nada">
+                      <input type="button" value="verificar">
                       
                       <input type="hidden" id="referencia" value="123456">   
                   </fieldset>  

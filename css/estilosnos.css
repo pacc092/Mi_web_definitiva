@@ -125,8 +125,8 @@ a{
             margin-top: 2px;
         }
        
-        form {border: 2px solid gray;width: 90%;margin: auto;border-radius: 10px;}
-	  fieldset{border-width: 1px;margin: 10px; border-radius: 5px;}
+    form {border: 2px solid gray;width: 90%;margin: auto;border-radius: 10px;}
+	fieldset{border-width: 1px;margin: 10px; border-radius: 5px;}
     legend{font-weight: bold;}
 	  input, textarea, select, option {
       font: 1rem 'Calibri', sans-serif;
@@ -144,7 +144,7 @@ a{
       border: 1px solid tomato;
     }
     
-    input[type='submit'] {
+    input[type='button'] {
       background: tomato;
       color: white;
       border: none;
