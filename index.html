@@ -28,8 +28,9 @@
                 </div>
             </div>
             <div class="texto-principal margen-interno">
-                <h1>En esta página encontrarás una gran variedad de información acerca del mundo de los videojuegos, así como algunos productos que podemos ofrecer desde nuestro portal. Adentrate en este mundo, a través de VIDEOJU3GOS &copy;</h1>
+                <h1 id="mescribir">En esta página encontrarás una gran variedad de información acerca del mundo de los videojuegos, así como algunos productos que podemos ofrecer desde nuestro portal. Adentrate en este mundo, a través de VIDEOJU3GOS &copy;</h1>
             </div>
+            <script src="./js/productos.js"></script>
         </header>
         <section class="section margen-interno">
             <div class="articulos">
@@ -39,7 +40,7 @@
                         <figcaption><h2>El futuro ha llegado con Play Station 5</h2></figcaption>
                     </figure>
                     <p >La elegancia de la nueva consola de Sony por fin tiene sentido, con esta consola de nueva generación, cuyos gráficos están dispuestos a revolucionar el mundo de los videojuegos. <span id="adicional" class="oculto">Y creemos que con su llegada, marcará un antes y un después si nos referimos a la hora de vivir una experiencia </span></p>
-                    <a id="ampliar" href="#" onclick="mostrar('');">Leer más</a>
+                    <a id="ampliar" href="#">Leer más</a>
                 </article>
                 <article class="articulo1">
                     <figure>
@@ -47,7 +48,7 @@
                         <figcaption><h2>Consola de nueva generación</h2></figcaption>
                     </figure>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
-                    <a id="ampliar" href="#" onclick="mostrar()";>Leer más</a>
+                    <a id="ampliar" href="#";>Leer más</a>
                 </article>
                 <article class="articulo1">
                     <figure>
@@ -65,21 +66,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nisi, quod quaerat voluptatem labore repudiandae commodi illo laborum. Eveniet et, necessitatibus animi quas earum accusamus voluptatem blanditiis perferendis neque? Officia?</p>
                     <a href="#">Leer más</a>
                 </article>
-                <style>
-                    .oculto{display: none}
-                    .normal{display: block}
-                </style>
-
-                <script>
-                    function mostrar() {
-                        let elemento = document.getElementById('adicional');
-                        if (element.className == 'oculto')
-                        elemento.className = 'normal'
-                        else elemento.className = 'oculto'
-                        
-                    }
-                    alert (elemento);
-                </script>
+                
                 <nav class="navegacion">
                     <a href="#"></a>
                     <a href="#"></a>
