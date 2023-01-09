@@ -86,24 +86,4 @@ function comprobar(){
 }
 
 /*efecto máquina de escribir*/
-var texto = document.getElementById('mescribir');
-var str = texto.innerHTML;
-
-texto.innerHTML = '';
-
-var speed = 200;
-var i = 0;
-
-/*efecto js*/ 
-
-function typeWriter() {
-  if (i < str.length) {
-    texto.innerHTML += str.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-    
-  }
-  
-}
-setTimeout(typeWriter, speed);
 
