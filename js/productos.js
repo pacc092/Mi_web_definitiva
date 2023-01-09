@@ -85,5 +85,3 @@ function comprobar(){
 
 }
 
-/*efecto máquina de escribir*/
-
